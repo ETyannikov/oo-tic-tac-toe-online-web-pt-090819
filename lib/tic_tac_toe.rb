@@ -66,6 +66,9 @@ class TicTacToe
     full == 0 ? true : false
   end
   
+  def draw?
+    
+  end
 end
 
 
