@@ -63,9 +63,7 @@ class TicTacToe
   
   def full?
     full = @board.filter{|a| a == " "}.count
-    binding.pry
-    full < 0 ? false : true
-    binding.pry
+    full == 0 ? true : false
   end
   
 end
