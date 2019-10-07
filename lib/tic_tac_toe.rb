@@ -76,7 +76,7 @@ class TicTacToe
   
   def winner
     v = won?[0]
-    v
+    binding.pry
   end
 end
 
