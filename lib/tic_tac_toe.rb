@@ -82,7 +82,7 @@ class TicTacToe
       c = @board[win[2]]
       won = win if a == b && b == c && a != " "
     end
-    won[0]
+    won[2]
   end
 end
 
